@@ -13,7 +13,7 @@
   
   header {
     background-color: #fff;
-    height: 70px;
+    height: auto;
     width: 100%;
     position: fixed;
     top: 0;
@@ -28,13 +28,17 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding:20px;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
   }
   
   .logo a {
     font-size: 28px;
+    font-family: "Rock Salt", Helvetica, Arial, sans-serif;
     color: #333;
     text-decoration: none;
+    
   }
   
   .nav-links {
@@ -157,6 +161,27 @@
     width: 100%;
     color: white;
     text-align: center;
+}
+
+.flexbox{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.flexbox div {
+  flex: 1;
+  padding: 0.5em;
+  text-align: center;
+  border-right: 1px solid white;
+}
+
+.flexbox div:last-child {
+  border: none; 
 }
 
 .middlebits{
