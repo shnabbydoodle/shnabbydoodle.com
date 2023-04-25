@@ -184,6 +184,31 @@
   border: none; 
 }
 
+.iframebox{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.iframebox div {
+  flex: 1;
+  padding: 0.5em;
+  text-align: center;
+  border-right: 1px solid white;
+}
+
+.iframebox div:last-child {
+  border: none; 
+}
+
+iframe{
+  width: 646px;
+}
+
 .middlebits{
     background-color:aliceblue;
     padding: 50px 10%;
@@ -204,4 +229,13 @@
     .hamburger-menu {
       display: block;
    
-    }}  
+    }
+    
+    .iframebox{
+      flex-direction: column;
+    }
+
+    iframe{
+      width: 75vw;
+    }
+  }  
