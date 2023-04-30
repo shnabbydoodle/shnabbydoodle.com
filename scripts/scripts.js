@@ -6,3 +6,15 @@ $(document).ready(function(){
     });
 });
  */
+function theBeastREVEALED() {
+    var x = document.getElementById("theBeast");
+        x.style.opacity = 1;
+        setInterval(function() {
+           var opacity = x.style.opacity;
+           if (opacity > 0) {
+              opacity -= 0.1;
+              x.style.opacity = opacity;
+           }
+        }, 200);
+ 
+  }
