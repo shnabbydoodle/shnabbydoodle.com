@@ -110,6 +110,18 @@
     bottom: 0;
   }
 
+.theBEAST{
+  position:absolute;
+  z-index:1;
+  left:40%;
+}
+.theBEAST img {
+  height:90px;
+}
+
+.img{
+  max-width:100vw;
+}
 
   div{
     display:block;
