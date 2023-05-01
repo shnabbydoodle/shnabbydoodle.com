@@ -18,3 +18,11 @@ function theBeastREVEALED() {
         }, 200);
  
   }
+
+  function toggleBurger() {
+    console.log("burgah");
+    var nav = document.querySelector(".nav-links");
+    var hamburger = document.querySelector(".hamburger");
+    nav.classList.toggle("open");
+    hamburger.classList.toggle("open");
+}
