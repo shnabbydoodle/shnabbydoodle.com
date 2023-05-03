@@ -19,6 +19,11 @@ function theBeastREVEALED() {
  
   }
 
+  function representation() {
+    var dennis = document.querySelector(".dennis");
+    dennis.classList.toggle("revealed");
+  }
+
   function toggleBurger() {
     console.log("burgah");
     var nav = document.querySelector(".nav-links");

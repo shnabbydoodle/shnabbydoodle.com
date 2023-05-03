@@ -199,6 +199,14 @@
   opacity:0;
 }
 
+.dennis{
+  display:none;
+}
+.dennis.revealed{
+  margin:auto;
+  display:block;
+}
+
 img{
   max-width:100%;
 }
